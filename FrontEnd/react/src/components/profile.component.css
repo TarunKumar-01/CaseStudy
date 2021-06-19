@@ -1,0 +1,25 @@
+.crds {
+  padding-top: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+  background-repeat: repeat-x;
+  background-image: url(https://images.designtrends.com/wp-content/uploads/2015/11/30170830/Grey-Background.jpg);
+  background-size: 100% 100%;
+}
+
+.crd {
+  display: grid;
+  background-color: lightgrey;
+  grid-template-rows: max-content 200px 1fr;
+  border-radius: 20px;
+}
+
+.crd img {
+  object-fit: cover;
+  width: min-content;
+  height: 50%;
+}
+H3 {
+  text-align: center;
+}
